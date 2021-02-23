@@ -1,0 +1,56 @@
+/* ----------- Filling the home with the beautiful creation of wood ------------*/
+.main-container {
+  min-width: 320px;
+}
+.first-page-caption {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  
+  .chair-container {
+    padding: 10px;
+  }
+  
+  .image-radius {
+    border-radius:$bgImageRadius;
+  }
+  
+  .text-caption {
+    color: rgb(64,46,70);
+    font-weight: bold;
+    margin: .5rem 0rem;
+    font-size:6rem
+  }
+  
+  .brands {
+    opacity: 0.3;
+  }
+  
+  .brand-logos { 
+    width: 180px;
+    height: 100px;
+  }
+  
+  @media (max-width: 992px){
+      .pages-textSize{
+      font-weight: bold;
+      font-size: 4rem;
+    }
+  }
+  
+  @media (max-width: 767px){
+    .pages-textSize {
+      font-size: 2.5rem;
+    }
+  
+    .main-container {
+      margin: 0 !important;
+    }
+  }
+  
+  @media (max-width: 530px){
+      .pages-textSize{
+      font-weight: bold;
+      font-size: 2rem;
+    }
+  }

@@ -1,0 +1,114 @@
+/* Furniture the different */
+.lamp-image {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  border-radius: $bgImageRadius;
+}
+
+.gray-chair-image {
+  width: 80%;
+  height: auto;
+  border-top-right-radius: $bgImageRadius;
+  border-bottom-right-radius: $bgImageRadius;
+  margin: 10%;
+}
+
+.relax-room-image {
+  width: 80%;
+  height: auto;
+  border-radius: $bgImageRadius;
+  margin-top: 60px;
+}
+
+.sofa-image {
+  width: 90%;
+  height: auto;
+  border-radius: $bgImageRadius;
+  margin: 10% 10% 0% 0%;
+}
+
+.your-prefer-room-text {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  z-index: 9;
+  background-color: white;
+  border-radius: 15px;
+  width: 70%;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:$orangeButtonColor;
+  font-size: 1.3rem;
+}
+
+.second-page-gray-dyv {
+  position: absolute;
+  width: 45%;
+  height: 42%;
+  background-color: #8080800d;
+  border-radius: 30px;
+  right: 20%;
+  z-index: -1;
+}
+
+@media (max-width: 1277px){
+  .second-page-gray-dyv {
+    display: none;
+  }
+}
+
+@media (max-width: 992px){
+  .second-page-gray-dyv {
+    display: none;
+  }
+}
+
+@media (max-width: 767px){
+  .your-prefer-room-text {
+    top: 48%;
+  }
+}
+
+@media (max-width: 571px){
+  .lamp-image {
+    width: 50%;
+    margin-left: 2%;
+  }
+
+  .gray-chair-image {
+    width: 45%;
+    margin-top: 0;
+    border-radius: $smImageRadius;
+    margin: 0 !important;
+  }
+
+  .relax-room-image {
+    width: 45%;
+    margin-top: 0;
+    margin-left: 2%;
+  }
+
+  .sofa-image { 
+    width: 50%;
+    margin-top: 0;
+    margin: 0 !important;
+  }
+
+  .your-prefer-room-text {
+    top: -10%;
+    width: 100%;
+    height: 60px;
+  }
+
+  .middle-heading {
+    font-size: 1.2rem !important;
+  }
+
+  .signup-button {
+    width: 100% !important;
+  }
+}

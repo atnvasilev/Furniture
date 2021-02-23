@@ -1,0 +1,44 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "styles/variables";
+@import "styles/navigation";
+@import "styles/first-section";
+@import "styles/second-section";
+@import "styles/third-section";
+@import "styles/fourth-section";
+@import "styles/fifth-section";
+@import "styles/footer";
+
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 77px; 
+  font-size:12px;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.1 !important;
+}
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+*{
+  margin:0;
+  padding:0;
+  outline:none;
+}
+
+@media (max-width: 768px){
+  // html {
+  //   scroll-padding-top: 350px; 
+  // }
+  #home-page {
+    padding-top: 0 !important;
+  }
+}
+
+@media (max-width: 530px){
+  html {
+    scroll-padding-top: 250px; 
+  }
+}

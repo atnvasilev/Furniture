@@ -1,0 +1,93 @@
+/* ------Find your fit with wear and gear------- */
+.fifth-page-title {
+    text-align: center;
+  }
+  
+  .sm-image-size {
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    margin:10px;
+  }
+  
+  .light-orange {
+    background-color: #da710180;
+  }
+  
+  .orange {
+    background-color: rgb(219, 113, 37);
+  }
+  
+  .square {
+    position: absolute;
+    border-radius: 30%;
+  }
+  
+  .sm {
+    width: 12px;
+    height: 12px;
+  }
+  
+  .md {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .bg {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .first-square {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .second-square {
+    left:25%;
+    top:30%;
+  }
+  
+  .third-square {
+    left:60%;
+    top:45%;
+  }
+  .fourth-square {
+    right: 0;
+    bottom: 10%;
+  }
+  
+  .second-square-right {
+    top:30%;
+    right: 25%;
+  }
+  
+  .third-square-right {
+    right: 60%;
+    top:45%;
+  }
+  
+  .fourth-square-right {
+    left: 0;
+    bottom: 10%;
+  }
+  
+  @media (max-width: 992px){
+    .fifth-page-title {
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+    }
+  }
+  
+  @media (max-width: 767px){
+  
+  }
+  
+  @media (max-width: 530px){
+    .find-your-fit-container {
+      margin: 0 !important;
+    }
+  }

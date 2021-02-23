@@ -1,0 +1,112 @@
+/* ---Classic Italian Furniture Manufacturer--- */
+
+.third-page {
+    position: relative;
+  }
+  
+  .dots {
+    display: block;
+    min-height: 180px;
+    height: 100%;
+  }
+  
+  .third-page-gray-dyv {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background-color: $grayBackgroud;
+    border-radius: $smImageRadius;
+    top: 0px;
+    right: 30%;
+    z-index: -1;
+  }
+  
+  .third-page-first-square {
+    right: 0;
+    top:0;
+  }
+  
+  .third-page-second-square {
+    right: 25%;
+    top: 20%;
+  }
+  
+  .third-page-third-square {
+    right: 50%;
+    top: 60%;
+  }
+  
+  .third-page-border-container {
+    border-top: 2px solid rgb(219, 113, 37);
+  }
+  
+  .third-page-sImage {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .sculpture-image-container {
+    width: 60% !important;
+  }
+  
+  .audiotapecassette-image-container {
+    width: 40% !important;
+  }
+  
+  @media (max-width: 992px){
+      .third-page-gray-dyv {
+      display: none;
+    }
+    .third-page {
+      margin-top: 0 i !important;
+    }
+  
+    .pages-textSize {
+      width: 100% !important;
+    }
+  
+    .dots { 
+      display: none;
+    }
+  
+    .third-page-border-container {
+      max-width: 100% !important;
+      flex: 0 0 100% !important;
+    }
+    
+    .third-page {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+    }
+  
+    .furniture-the-different-images-container {
+      margin-right: 0 !important;
+      margin-bottom: 10% !important;
+    }
+  }
+  
+  @media (max-width: 767px){
+    .pages-textSize {
+      font-size: 2.5rem;
+    }
+  
+    .main-container {
+      margin: 0 !important;
+    }
+  }
+  
+  @media (max-width: 530px){
+      .pages-textSize{
+      font-weight: bold;
+      font-size: 2rem;
+    }
+    
+    .middle-heading {
+      width: 100% !important;
+    }
+  
+    .manufacturer-container {
+      margin: 0% 0% 10% 0% !important;
+      padding: 0 !important;
+    }
+  }

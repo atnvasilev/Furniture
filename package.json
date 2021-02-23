@@ -1,0 +1,14 @@
+{
+  "name": "bootstrap_install",
+  "version": "1.0.0",
+  "description": "bootstrap npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Atanas Vasilev",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}
